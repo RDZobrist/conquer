@@ -8,26 +8,16 @@ import {
 	TopLine,
 	Heading,
 	Subtitle,
-	ContentColumn,
 } from '../../components/Content/Content.styles';
 import { GalleryPhoto } from './Gallery.styles';
 const Gallery = () => {
 	const [bookNowURL] = useState('https://airmadnesspos.com/airmadness/onlinesales1/tickets1.php');
 
-	const handleBookNowClick = () => {
-		window.location = bookNowURL;
-		return null;
-	};
-
-	const handlePhoneNumberClick = () => {
-		window.location = "tel:+1-605-702-4243";
-		return null;
-	};
 
 	const initial = { opacity: 0, y: 30 };
 	const animation = useAnimation();
 
-	const { ref, inView } = useInView({ threshold: 0.2 });
+	const { inView } = useInView({ threshold: 0.2 });
 
 	useEffect(() => {
 		if (inView) {
