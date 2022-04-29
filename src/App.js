@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 //Pages
 
 const Footer = lazy(()=>import('./components/Footer/Footer.component'));
-const Home = lazy(() => import('./screens/Home')); 
+const Home = lazy(() => import('./screens/Home.screen')); 
 const Gallery = lazy(() => import('./screens/Gallery/Gallery.screen'));
 const BirthdayParties = lazy(() => import('./screens/BirthdayParties/BirthdayParties.screen'));
 const FAQs = lazy(() => import('./screens/FAQ/FAQ.screen'));

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {  useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { useAnimation } from 'framer-motion';
 import { Section, Container } from '../../globalStyles';
@@ -11,7 +11,6 @@ import {
 } from '../../components/Content/Content.styles';
 import { GalleryPhoto } from './Gallery.styles';
 const Gallery = () => {
-	const [bookNowURL] = useState('https://airmadnesspos.com/airmadness/onlinesales1/tickets1.php');
 
 
 	const initial = { opacity: 0, y: 30 };
