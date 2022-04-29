@@ -11,17 +11,11 @@ import {
 	FooterHours,
 	FooterContainer
 } from './Footer.styles';
-import { footerData, footerSocialData } from '../../data/FooterData';
-import { Row, Section } from '../../globalStyles';
+import { footerSocialData } from '../../data/FooterData';
+import { Row  } from '../../globalStyles';
 
 function Footer() {
-	const scrollTo = (id) => {
-		const element = document.getElementById(id);
 
-		element.scrollIntoView({
-			behavior: 'smooth',
-		});
-	};
 	return (
 		<FooterContainer >
 			<FooterWrapper>

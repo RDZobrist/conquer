@@ -1,6 +1,6 @@
-import React, { useState, useEffect, Fragment } from 'react';
+import React, { useState, Fragment } from 'react';
 
-import { ToggleButton, InnerContent, OuterContent, TopLineContainer } from './ExpandedDiv.styles';
+import { ToggleButton, InnerContent, OuterContent } from './ExpandedDiv.styles';
 
 const ExpandedDiv = (faq) => {
     const [showExtraContent, toggleShowExtraContent] = useState(false);

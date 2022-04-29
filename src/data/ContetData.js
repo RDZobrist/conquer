@@ -54,7 +54,7 @@ export const sectionThree = {
 
 export const sectionFour = {
 	inverse: true,
-	inverse: true,
+	reverse: true,
 	hours: true,
 	topLine: {
 		text: 'Clean, Safe, Affordable Entertainment'

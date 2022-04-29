@@ -1,4 +1,4 @@
-import React, {lazy, Suspense} from 'react';
+import React, {lazy} from 'react';
 import GlobalStyle from './globalStyles';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';

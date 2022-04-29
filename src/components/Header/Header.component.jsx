@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Container, MainHeading } from '../../globalStyles';
+import { Button, Container } from '../../globalStyles';
 import { HeaderVideo, HeaderSection, HeaderText, ButtonWrapper, HeaderButton } from './Header.styles';
 
 const Header = () => {

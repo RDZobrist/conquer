@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { Container } from '../../globalStyles';
 import { Link } from 'react-router-dom';
 
-import { useLocation } from 'react-router-dom';
 export const Nav = styled.nav`
 	background: transparent;
 	margin-bottom: -80px;

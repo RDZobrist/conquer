@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaSnapchatGhost  } from 'react-icons/fa';
-import {SiTiktok} from 'react-icons/si';
 
 const iconStyle = (Icon) => <Icon />;
 
