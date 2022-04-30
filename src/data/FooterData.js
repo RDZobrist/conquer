@@ -42,7 +42,6 @@ export const footerData = [
 	},
 	{
 		title: 'Media',
-		links: ['Reviews', 'Reviews', 'Location', 'Reviews'],
 	},
 	
 ];

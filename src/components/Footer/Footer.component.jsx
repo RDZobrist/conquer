@@ -45,7 +45,7 @@ function Footer() {
 							{footerSocialData.map((social, index, url) => (
 								<FooterSocialIcon
 									key={index}
-									href={url}
+									href={social.url}
 									target="_blank"
 									aria-label={social.name}
 								>

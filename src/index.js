@@ -6,11 +6,8 @@ import Spinner from './components/Spinner/Spinner.component';
 
 ReactDOM.render(
 	<Suspense fallback={<Spinner />} >
-
 		<ErrorBoundary >
-
 			<App />
-
 		</ErrorBoundary>
 	</Suspense>,
 	document.getElementById('root')

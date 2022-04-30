@@ -26,7 +26,7 @@ const Header = () => {
 				<ButtonWrapper>
 					
 					<HeaderButton onClick={handlePhoneNumberClick}>(605) 702-4243</HeaderButton>
-					<Link to="signup">
+					<Link>
 						<Button onClick={handleBookNowClick}>Book an Escape Room Now</Button>
 					</Link>
 				</ButtonWrapper>
